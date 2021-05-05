@@ -1,0 +1,119 @@
+@font-face /*insertion d'une police d'écriture*/
+{
+font-family: 'Bodonitown';
+src: url('Bodonitown.ttf');
+} 
+
+
+.txt /*Paramètre des textes de la page*/
+{
+  font-family: Bodonitown; 
+  font-size: 1.5em; 
+  font-weight: normal;
+  line-height: 1.3;
+  text-indent: 2em hanging;
+  color: #4A235A;
+}
+
+
+body { background: #CCD1D1; } /*Définition de la couleur de fond*/
+
+.cache{color: #212F3D; background-color: color;} /*C'est un secret*/
+
+header, div, footer /*Paramétrage des "header", "div" et "footer"*/
+{
+  border-radius: 5px;
+  background-color: #BB8FCE ;
+  width:80%;
+  background-position: center;
+  position: relative;
+  left: 10%;
+  box-shadow: 2px 2px 0px #5D6D7E;
+}
+
+
+.pres{font-size: 120%; background-position: center; background-color: #212F3D;} /*Paramétrage des liens en haut de page*/
+
+
+/* pour que les liens s'adaptent au format de la page ouverte : */
+@media screen and (max-width: 70em) {
+.pres {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 58em) {
+.pres {
+    font-size: 60%;
+  }
+}
+
+/* Définirent où et comment sont placer les images (une seule ici) */
+img{float: left; width: 20rem;}
+
+/* Mets en bonne position les trois paragraphes en colonne */
+.div1{width:30%;left: 2.5%;float:left; top: 3.70%;border-radius: 100px / 5px}
+.div2{width:30%;left: 5%;float:left; top: 1.90%;border-radius: 100px / 5px}
+.div3{width:30%;left: 7.5%;float:left; top: 0%;border-radius: 100px / 5px}
+
+/* Paramétrage du titrage numéro 1 */
+h1
+{
+  font-family: Georgia; 
+  font-size: 6em; 
+  color: #E22B27; 
+  font-weight: bold; 
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/* Paramétrage du titrage numéro 2 */
+h2
+{
+  font-family: Times New Roman; 
+  font-size: 3em;
+  color: #2E4053 ;
+  text-shadow: 0.1em 0.1em 0.2em #D5D8DC;
+}
+
+
+/* Paramétrage du paragraphe principal de la page */
+.fin
+{
+
+width: 90%;
+
+top: 10%;
+left: 5%;
+bottom: 20%;
+
+display: flex;
+flex-direction: row;
+min-height: 50%;
+
+padding-bottom: 0;
+}
+
+
+
+/* Paramétrage du "footer" */
+footer 
+{
+position: fixed;
+font-family: Comic Sans MS;
+font-size: 0.9em;
+
+background-color: #212F3C;
+color: white;
+
+width: 100%;
+opacity: 0.5;
+
+left: 0;
+bottom: 0;
+padding-bottom: 0;
+}
+
+/* Paramétrage de l'input */
+input{background-color: #B3B6B7; color: #212F3C;}
+
+/* Paramétrage de tous liens de la page */
+a{border-right: 20px solid #212F3D; border-left: 20px solid #212F3D; color: #B2BABB;}
