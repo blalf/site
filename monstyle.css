@@ -35,7 +35,7 @@ header, div, footer /*Paramétrage des "header", "div" et "footer"*/
 .pres{font-size: 120%; background-position: center; background-color: #212F3D;} /*Paramétrage des liens en haut de page*/
 
 
-/* pour que les liens s'adaptent au format de la page ouverte : */
+/* pour que les liens s'adaptent au format de la page ouverte : */  /*A MODIF*/
 @media screen and (max-width: 70em) {
 .pres {
     font-size: 90%;
@@ -117,3 +117,6 @@ input{background-color: #B3B6B7; color: #212F3C;}
 
 /* Paramétrage de tous liens de la page */
 a{border-right: 20px solid #212F3D; border-left: 20px solid #212F3D; color: #B2BABB;}
+
+button {background-color: black; color: white;}
+

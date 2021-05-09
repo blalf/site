@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="montest.css" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+
+        <meta charset="utf-8" />
+        <title>test</title> 
+    </head>
+
+    <body>
+        <!-- Corps de la page -->
+        <a href="www.youtube.com"> yo </a>
+        <h1> yo bitch</h1>
+
+        <button onclick="window.location.href = 'file:///E:/nsi/html/site/test.html';">reload la page</button>
+        
+        <button onclick="window.location.href = 'file:///E:/nsi/html/site/index.html';">mon site</button>
+
+        <button onclick="alert('Nique ta mere')"> Click ME!</button>
+
+        <br /><br /><br /><br /><br /><br /><br />
+
+        <label for="fname">First name:</label><br>
+
+        <br /><br /><br /><br /><br /><br /><br />
+
+
+		<form action="action_page.php">
+  			<label for="fname">First name:</label><br>
+  			<input type="text" id="fname" name="fname" value="John"><br>
+
+  			<label for="lname">Last name:</label><br>
+  			<input type="text" id="lname" name="lname" value="Snow"><br><br>
+
+   			<label for="pwd">Password:</label><br>
+  			<input type="password" id="pass" name="pass" value="****"><br><br>
+
+  			<label for="male">Male</label>
+  			<input type="radio" id="male" name="gender" value="male">
+  			<br>
+
+  			<input type="radio" id="female" name="gender" value="female">
+  			<label for="female">Female</label><br><br>
+
+  			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  			<label for="vehicle1"> I have a bike</label><br>
+
+  			<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  			<label for="vehicle2"> I have a car</label><br>
+
+  			<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  			<label for="vehicle3"> I have a boat</label><br><br>
+
+  			<input type="button" onclick="alert('Hello World!')" value="Click Me!"><br><br>
+  			<input type="submit" value="envoyer">
+		</form>
+
+		
+
+		<form action="/action_page2.php">
+			<label for="car">Choisissez une marque de voiture:</label>
+
+			<select name="marque" id="car">
+  			<option value="renault">Renault</option>
+  			<option value="peugeot">Peugeot</option>
+  			<option value="mercedes">Mercedes</option>
+  			<option value="audi">Audi</option>
+			</select>
+			<br> <br>
+			<input type="submit"value="Soumettre">
+
+		</form>
+
+
+		<form action="index.php" method="GET">
+			Votre nom :<input type="text" name="nom">
+			Votre âge :<input type="text" name="age">
+			<p>
+			<input type=submit value="Envoyer">
+			</form>
+
+      
+
+    
+
+
+    </body>
+</html>
